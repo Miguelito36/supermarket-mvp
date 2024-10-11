@@ -21,6 +21,6 @@ namespace Supermarket_mvp.Models
         [DisplayName("Pay mode Observation")]
         [Required(ErrorMessage = "Pay Mode Observation is required")]
         [StringLength(200, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]
-        public string Öbservation { get; set; }
+        public string Observation { get; set; }
     }
 }

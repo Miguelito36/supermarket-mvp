@@ -3,3 +3,6 @@ C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermark
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.AssemblyInfo.cs
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.csproj.CoreCompileInputs.cache
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.sourcelink.json
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.Properties.Resources.resources
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.Views.PayModeView.resources
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.csproj.GenerateResource.cache

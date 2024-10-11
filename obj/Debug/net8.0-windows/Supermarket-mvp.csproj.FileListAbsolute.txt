@@ -1,0 +1,5 @@
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.sourcelink.json

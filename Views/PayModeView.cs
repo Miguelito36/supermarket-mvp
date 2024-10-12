@@ -24,29 +24,31 @@ namespace Supermarket_mvp.Views
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
         }
 
-        public string PayModeId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string PayModeName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        private void AssociateAndRaiseViewEvents()
+        {
+            BtnSearch.Click += delegate { Searchevent?.Invoke(this, EventArgs.Empty); };
 
-        public string PayModeObservation { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+            Txtsearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    Searchevent?.Invoke(this, EventArgs.Empty);
+                }
 
-        public string SearchValue { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+            };
+        }
 
-        public string IsEdit { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public string IsSuccessful { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public string Message { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-
-
-        public event EventHandler SearchEvent;
+        public event EventHandler Searchevent;
         public event EventHandler AddNewEvent;
         public event EventHandler EditEvent;
         public event EventHandler DeleteEvent;
         public event EventHandler SaveEvent;
         public event EventHandler CancelEvent;
-        public event EventHandler Searchevent;
 
+        public void SetPayModeListBildingSource(BindingSource payModeList)
+        {
+            DgPayMode.DataSource = payModeList;
+        }
         public string PayModeId
         {
             get { return TxtPayModeId.Text; }
@@ -63,7 +65,7 @@ namespace Supermarket_mvp.Views
             get { return TxtPayModeObservation.Text; }
             set { TxtPayModeObservation.Text = value; }
         }
-        public string SearchValue
+        public string SearchValues
         {
             get { return Txtsearch.Text; }
             set { Txtsearch.Text = value; }
@@ -71,36 +73,18 @@ namespace Supermarket_mvp.Views
         public bool IsEdit
         {
             get { return isEdit; }
-            set { IsEdit = value; }
+            set { isEdit = value; }
         }
-        public bool IsSuccessful
+        public bool IsSuccessfull
         {
             get { return isSuccessful; }
-            set { IsSuccessful = value; }
+            set { isSuccessful = value; }
         }
         public string Message
         {
-            get { return Message; }
+            get { return message; }
             set { message = value; }
         }
-        public void SetPayModeListBildingSource(BindingSource payModeList)
-        {
-            DgPayMode.DataSource = payModeList;
-        }
-        private void AssociateAndRaiseViewEvents()
-        {
-            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
-            Txtsearch.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    SearchEvent?.Invoke(this, EventArgs.Empty);
-                }
-            };
-        }
-
-        public string SearchValues { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool IsSuccessfull { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
 

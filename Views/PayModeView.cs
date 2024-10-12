@@ -16,11 +16,13 @@ namespace Supermarket_mvp.Views
         private bool isEdit;
         private bool isSuccessful;
         private string message;
+        private TabPage tabPagePayModeDetail;
         public PayModeView()
         {
             InitializeComponent();
             AssociateAndRaiseViewEvents();
 
+            tabPagePayModeDetail = new TabPage();
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
         }
 
@@ -49,6 +51,24 @@ namespace Supermarket_mvp.Views
         {
             DgPayMode.DataSource = payModeList;
         }
+        private static PayModeView instance;
+        public static PayModeView GetInstances()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModeView();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Minimized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }
+                instance.BringToFront();
+            }
+            return instance;
+        }
+
         public string PayModeId
         {
             get { return TxtPayModeId.Text; }

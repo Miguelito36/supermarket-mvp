@@ -33,7 +33,7 @@
             label1 = new Label();
             tabControl1 = new TabControl();
             tabPagePayModeList = new TabPage();
-            button4 = new Button();
+            BtnClose = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
@@ -101,7 +101,7 @@
             // 
             // tabPagePayModeList
             // 
-            tabPagePayModeList.Controls.Add(button4);
+            tabPagePayModeList.Controls.Add(BtnClose);
             tabPagePayModeList.Controls.Add(button3);
             tabPagePayModeList.Controls.Add(button2);
             tabPagePayModeList.Controls.Add(button1);
@@ -117,17 +117,19 @@
             tabPagePayModeList.Text = "Page Mode List";
             tabPagePayModeList.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // BtnClose
             // 
-            button4.Image = Properties.Resources.cerrar;
-            button4.Location = new Point(589, 252);
-            button4.Name = "button4";
-            button4.Size = new Size(171, 60);
-            button4.TabIndex = 7;
-            button4.UseVisualStyleBackColor = true;
+            BtnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            BtnClose.Image = Properties.Resources.cerrar;
+            BtnClose.Location = new Point(589, 252);
+            BtnClose.Name = "BtnClose";
+            BtnClose.Size = new Size(171, 60);
+            BtnClose.TabIndex = 7;
+            BtnClose.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button3.Image = Properties.Resources.delete;
             button3.Location = new Point(589, 189);
             button3.Name = "button3";
@@ -137,6 +139,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button2.Image = Properties.Resources.edit;
             button2.Location = new Point(589, 125);
             button2.Name = "button2";
@@ -146,6 +149,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button1.Image = Properties.Resources._new;
             button1.Location = new Point(589, 61);
             button1.Name = "button1";
@@ -157,6 +161,7 @@
             // 
             DgPayMode.AllowUserToAddRows = false;
             DgPayMode.AllowUserToDeleteRows = false;
+            DgPayMode.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             DgPayMode.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgPayMode.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgPayMode.Location = new Point(16, 61);
@@ -179,6 +184,7 @@
             // 
             // Txtsearch
             // 
+            Txtsearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Txtsearch.Location = new Point(16, 24);
             Txtsearch.Name = "Txtsearch";
             Txtsearch.PlaceholderText = "Data to Search";
@@ -312,7 +318,7 @@
         private TextBox Txtsearch;
         private Label label2;
         private Button BtnSearch;
-        private Button button4;
+        private Button BtnClose;
         private Button button3;
         private Button button2;
         private Button button1;

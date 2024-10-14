@@ -54,3 +54,4 @@ C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermark
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket-mvp.genruntimeconfig.cache
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\ref\Supermarket-mvp.dll
 C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.Views.MainView.resources
+C:\Users\usuario\source\repos\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.Views.ProductsView.resources

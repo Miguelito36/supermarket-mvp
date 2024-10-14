@@ -1,0 +1,53 @@
+[33mcommit 8012a657ca33c54b42571847118a5a291243a3a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Fri Oct 11 23:48:52 2024 -0500
+
+    Adjustments to views
+
+[33mcommit 8ff7df8bb4f2928081da0c9b12a556a2c773896c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Fri Oct 11 23:31:24 2024 -0500
+
+    Main View
+
+[33mcommit a15e18faee618852e54b7116a419e910013188c6[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Fri Oct 11 22:25:26 2024 -0500
+
+    Pay Mode Repository - Search
+
+[33mcommit 59b329cd1066507a86caee998003d979b65747d9[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 23:29:15 2024 -0500
+
+    Metodo IEnumerable GetAll fue creado con sus respectivos paquetes
+
+[33mcommit 033ae0bcefbb8a61f56d1671ea534eb743f4c57a[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 23:02:13 2024 -0500
+
+    Pay Mode Presenter
+
+[33mcommit e2a490b79cac41130462bcdce212ab631117c242[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 20:44:00 2024 -0500
+
+    Pay Mode view
+
+[33mcommit 0af0cc4d2bdbab5910571d19156dcb2f8ed7358f[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 19:20:32 2024 -0500
+
+    initial project
+
+[33mcommit 9988d32ed6176fceb2b4fcfc4f494ea880eb3648[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 19:07:55 2024 -0500
+
+    se creo las carpetas y las clase PayModeModel con su interfaz
+
+[33mcommit 9d95717b0405b58975fa54382aebbd2376073c20[m
+Author: Jose Miguel Astaiza <jomiasga@gmail.com>
+Date:   Thu Oct 10 18:45:14 2024 -0500
+
+    initial project
